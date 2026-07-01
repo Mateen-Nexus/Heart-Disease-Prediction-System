@@ -5,7 +5,7 @@ import pickle
 
 st.title("❤️ Heart Disease Prediction App")
 
-# ان پٹ فارم (درست ڈیفالٹ ویلیوز اور فارمیٹ کے ساتھ)
+
 age = st.number_input("Age", min_value=1, max_value=120, value=45)
 sex = st.selectbox("Sex", ["Male", "Female"])
 bp = st.number_input("Blood Pressure", min_value=50, max_value=250, value=120)
